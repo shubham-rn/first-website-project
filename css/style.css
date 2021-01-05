@@ -1,0 +1,41 @@
+.left {
+  position: absolute;
+  top: 20px;
+  left: 60px;
+  display: inline-block;
+  border: 2px solid red;
+  color: white;
+}
+.mid {
+  display: block;
+  width: 36%;
+  margin: 29px auto;
+  border: 2px solid red;
+  color: white;
+}
+.right {
+  position: absolute;
+  right: 34px;
+  top: 20px;
+  display: inline-block;
+  border: 2px solid red;
+  color: white;
+}
+
+.navbar {
+  display: inline-block;
+}
+.navbar li {
+  display: inline-block;
+  font-size: 15px;
+}
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  padding: 34px 23px;
+}
+.navbar li a:hover,
+.navbar li a:active {
+  text-decoration: underline;
+  color: grey;
+}
