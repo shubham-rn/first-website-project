@@ -6,6 +6,21 @@
   border: 2px solid red;
   color: white;
 }
+.left img {
+  width: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  /* filter: invert(100%); */
+}
+.left img:hover {
+  filter: invert(100%);
+}
+.left div {
+  line-height: 25px;
+  text-align: center;
+}
+
 .mid {
   display: block;
   width: 36%;
@@ -27,7 +42,7 @@
 }
 .navbar li {
   display: inline-block;
-  font-size: 15px;
+  font-size: 20px;
 }
 .navbar li a {
   color: white;
@@ -35,7 +50,22 @@
   padding: 34px 23px;
 }
 .navbar li a:hover,
-.navbar li a:active {
+.navbar li a.active {
   text-decoration: underline;
-  color: grey;
+  color: gold;
+}
+
+.btn {
+  font-family: "Pirata One", cursive;
+  padding: 4px 6px;
+  margin: 9px;
+  color: white;
+  background-color: black;
+  border: 2px solid rgb(53, 52, 52);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.btn:hover {
+  color: gold;
+  background-color: rgb(41, 40, 40);
 }
