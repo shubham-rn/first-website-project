@@ -1,0 +1,99 @@
+.mid {
+  display: block;
+  width: 36%;
+  margin: 29px auto;
+  /* border: 2px solid red; */
+  color: white;
+}
+
+.navbar {
+  display: inline-block;
+}
+.navbar li {
+  display: inline-block;
+  font-size: 20px;
+}
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  padding: 34px 23px;
+}
+.navbar li a:hover,
+.navbar li a.active {
+  text-decoration: underline;
+  color: gold;
+}
+
+.outer-container {
+  /* border: 2px solid red; */
+  display: block;
+  padding: 80px;
+  /* margin: 10px 40px; */
+  margin-top: 0px;
+  height: 810px;
+  width: 40%;
+  float: right;
+}
+.inner-container {
+  /* border: 2px solid red; */
+  padding: 40px;
+  margin: 20px;
+  height: 200px;
+  background-color: rgba(255, 253, 253, 0.26);
+}
+.inner-container2 {
+  /* border: 2px solid red; */
+  padding: 10px;
+  margin: 4px;
+  width: 150px;
+  display: inline-block;
+}
+
+#block2a {
+  width: 200px;
+  height: 80%;
+  position: relative;
+  float: left;
+}
+#block2b {
+  width: 200px;
+  height: 80%;
+  position: relative;
+  float: right;
+}
+
+.footer {
+  background-color: rgba(255, 253, 253, 0.164);
+  overflow: auto;
+  /* border: 2px solid red; */
+  margin-top: 1120px;
+  margin-bottom: 20px;
+  width: 100%;
+  display: block;
+  text-align: left;
+}
+.footer ul {
+  list-style: none;
+  padding: 10px;
+  text-align: left;
+  tex
+}
+
+.footer ul li {
+  float: left;
+  padding: 10px;
+}
+
+.footer a {
+  color: black;
+}
+.footer a:hover {
+  color: gold;
+}
+
+#copyright {
+  /* margin-left: 1000px;
+  margin-bottom: 100px;  */
+  float: right;
+  margin-inline-start: 1000px;
+}

@@ -3,7 +3,7 @@
   top: 20px;
   left: 60px;
   display: inline-block;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   color: white;
 }
 .left img {
@@ -25,7 +25,7 @@
   display: block;
   width: 36%;
   margin: 29px auto;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   color: white;
 }
 .right {
@@ -33,7 +33,7 @@
   right: 34px;
   top: 20px;
   display: inline-block;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   color: white;
 }
 
