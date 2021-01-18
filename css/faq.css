@@ -1,0 +1,48 @@
+body {
+  color: gold;
+  background-color: black;
+  font-family: "Pirata One", cursive;
+}
+
+.header {
+  /* border: 1px solid red; */
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+  /* color: gold;
+  background-color: rgba(83, 82, 82, 0); */
+}
+
+.container {
+  /* border: 1px solid red; */
+  overflow: hidden;
+  padding: 5px;
+}
+
+.box1 {
+  /* border: 1px solid red; */
+  display: inline-block;
+  padding: 15px;
+  margin: 10px 10px;
+  width: 45%;
+  height: 500px;
+  float: left;
+  /* color: gold;
+  background-color: rgba(83, 82, 82, 0); */
+}
+
+.box2 {
+  /* border: 1px solid red; */
+  display: inline-block;
+  padding: 15px;
+  margin: 10px 10px;
+  width: 45%;
+  height: 500px;
+  float: right;
+  /* color: gold;
+  background-color: rgba(83, 82, 82, 0.301); */
+}
+.box1 p,
+.box2 p {
+  color: white;
+}
