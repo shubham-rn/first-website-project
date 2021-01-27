@@ -1,0 +1,51 @@
+.mid {
+  display: block;
+  width: 36%;
+  margin: 29px auto;
+  /* border: 2px solid red; */
+  color: white;
+}
+
+.navbar {
+  display: inline-block;
+}
+.navbar li {
+  display: inline-block;
+  font-size: 20px;
+}
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  padding: 34px 23px;
+}
+.navbar li a:hover,
+.navbar li a.active {
+  text-decoration: underline;
+  color: gold;
+}
+
+.outer-container {
+  border: 2px solid red;
+  display: block;
+  padding: 40px;
+  width: 90%;
+  height: 500px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.inner-container {
+  border: 2px solid red;
+  display: inline-block;
+  padding: 50px;
+  margin: auto 10px;
+  width: 40%;
+  height: 400px;
+}
+
+#block-a {
+  float: left;
+}
+#block-b {
+  float: right;
+}
